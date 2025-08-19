@@ -1,3 +1,53 @@
+# ------------------------
+# Java / Spring Boot
+# ------------------------
+/target/
+!/src/main/**/target/
+!/src/test/**/target/
+
+# Logs
+*.log
+*.out
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# ------------------------
+# IntelliJ IDEA
+# ------------------------
+.idea/
+*.iml
+*.iws
+out/
+
+# ------------------------
+# VS Code
+# ------------------------
+.vscode/
+.history/
+
+# ------------------------
+# Maven
+# ------------------------
+.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+mvnw.cmd
+mvnw
+
+# ------------------------
+# Gradle (if present)
+# ------------------------
+.gradle/
+build/
+
+# ------------------------
+# Environment / Secrets
+# ------------------------
+application-*.yml
+application-*.properties
+.env
+
 # Compiled class file
 *.class
 
