@@ -51,7 +51,7 @@ By completing this project, you will demonstrate:
 - **Language**: Java 17+
 - **Database**: PostgreSQL 14+
 - **Security**: Spring Security + JWT
-- **Build Tool**: Maven
+- **Build Tool**: Gradle
 - **Testing**: JUnit 5 + Mockito
 - **Documentation**: Swagger/OpenAPI 3
 - **Containerization**: Docker
