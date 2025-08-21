@@ -1,6 +1,7 @@
 package com.shubham.taskflow_ai;
 
 import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -12,5 +13,9 @@ import lombok.Setter;
 @Setter
 @Entity
 public class Task {
+    @Id
+    private String id;
+    private String title;
+    private String status; // e.g., "pending", "in-progress", "completed"
 
 }
